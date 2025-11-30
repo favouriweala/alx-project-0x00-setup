@@ -2,7 +2,7 @@ import React from "react"
 
 interface ButtonProps {
   title: string
-  className: string
+  styles: string
 }
 
 const Button: React.FC<ButtonProps> = ({ title, className }) => {
